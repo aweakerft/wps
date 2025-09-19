@@ -1,0 +1,177 @@
+{
+  "nav": {
+    "accounts": "Comptes",
+    "accountCount": "Nombre de comptes : {active} / {total}"
+  },
+  "pixel": {
+    "powerLabel": "Puissance de pixels : {count} / {max}",
+    "brushSize": "Taille du pinceau (Shift+Espace) :"
+  },
+  "ready": {
+    "prepare": "Prêt",
+    "selectAccount": "Sélectionner un compte",
+    "autoSelectAccounts": "Sélection automatique des comptes",
+    "autoSelect": "Sélection auto",
+    "deleteAllSelected": "Tout désélectionner",
+    "start": "Démarrer",
+    "tokenPlaceholder": "Jeton",
+    "accountLabelDefault": "Compte",
+    "selectMode": {
+      "multi": "Sélection depuis le départ",
+      "frame": "Sélection depuis le cadre",
+      "color": "Sélectionner par couleur"
+    },
+    "autoMode": {
+      "on": "Mode auto activé",
+      "off": "Mode auto désactivé"
+    },
+    "autoStart": {
+      "on": "Démarrage auto activé",
+      "off": "Démarrage auto désactivé"
+    }
+  },
+  "modal": {
+    "closeTitle": "Fermer"
+  },
+  "tabs": {
+    "accounts": "Comptes",
+    "settings": "Paramètres"
+  },
+  "accounts": {
+    "add": "Ajouter un compte",
+    "checkAll": "Vérifier tous les comptes",
+    "checkAllTitle": "Vérifier la capacité de pixels de tous les comptes"
+  },
+  "table": {
+    "accountName": "Nom du compte",
+    "accountToken": "Jeton du compte",
+    "droplets": "Droplets",
+    "pixelRight": "Limite de pixels",
+    "status": "Statut",
+    "actions": "Action",
+    "statusActive": "Actif",
+    "statusPassive": "Inactif"
+  },
+  "form": {
+    "accountNameLabel": "Nom du compte",
+    "accountNamePlaceholder": "Ex. : Compte principal",
+    "accountTokenLabel": "Jeton du compte",
+    "accountTokenPlaceholder": "Ex. : eyJhbGciOi...",
+    "worldXLabel": "World X",
+    "worldYLabel": "World Y",
+    "fetchButton": "Récupérer",
+    "uploadImage": "Téléverser une image",
+    "mosaicButton": "Mosaïque"
+  },
+  "preview": {
+    "scale": "Échelle (%)",
+    "keepRatio": "Conserver les proportions",
+    "width": "Largeur",
+    "height": "Hauteur",
+    "fillBackground": "Remplir l’arrière-plan",
+    "color": "Couleur",
+    "addToMap": "Ajouter à la carte",
+    "maxSizeExceeded": "La taille maximale est de 1000x1000 pixels.",
+    "alphaThreshold": "Transparence",
+    "colorMetric": "Algorithme couleur",
+    "metricRgb": "RGB (fast)",
+    "metricLab": "Lab (CIE76)",
+    "metricOklab": "Oklab",
+    "metricCiede2000": "CIEDE2000 (more accurate, slower)",
+    "dithering": "Dithering",
+    "ditheringOn": "Dithering: ON",
+    "ditheringOff": "Dithering: OFF"
+  },
+  "settings": {
+    "cf_clearance": "cf_clearance",
+    "globalCfClearanceLabel": "cf_clearance:",
+    "title": "cf_clearance pour les comptes vides"
+  },
+  "mosaic": {
+    "title": "Mosaïque",
+    "use2": "Utiliser 2 coord",
+    "use4": "Utiliser 4 coord",
+    "fetch": "Récupérer"
+  },
+  "buttons": {
+    "back": "Retour",
+    "save": "Enregistrer",
+    "add": "Ajouter",
+    "saveSettings": "Enregistrer",
+    "edit": "Modifier",
+    "checkPixels": "Vérifier",
+    "shop": "Boutique",
+    "delete": "Supprimer"
+  },
+  "thumb": {
+    "imageAlt": "Image {n}",
+    "lock": "Verrouiller"
+  },
+  "labels": {
+    "colorPalette": "Palette de couleurs"
+  },
+  "palette": {
+    "transparentTitle": "Transparent (couleur de l'image)",
+    "colorTitle": "Couleur #{id}"
+  },
+  "paletteMode": {
+    "premium": "Utiliser la couleur premium",
+    "free": "Utiliser la couleur gratuite"
+  },
+  "shop": {
+    "premiumTitle": "Couleurs Premium",
+    "purchased": "Couleurs achetées",
+    "exclusive": "Palette exclusive",
+    "buyPremium": "💧 2000 Droplets",
+    "itemsTitle": "Articles",
+    "itemsSub": "Obtenir plus de charges",
+    "maxTitle": "+5 Charges Max.",
+    "maxDesc": "Augmenter la capacité maximale de charges de peinture",
+    "recTitle": "+30 Charges de peinture",
+    "recDesc": "Recharger les charges de peinture",
+    "autoBuy": "Achat auto"
+  },
+  "controls": {
+    "movement": "Déplacement"
+  },
+  "movement": {
+    "title": "Déplacer l’image",
+    "up": "Haut",
+    "down": "Bas",
+    "left": "Gauche",
+    "right": "Droite"
+  },
+  "messages": {
+    "selectAccountFirst": "Sélectionnez d'abord un compte.",
+    "maxPixelsReached": "Vous avez atteint le nombre maximum de pixels : {limit}/{limit}",
+    "addCfClearancePrompt": "Ajoutez d'abord la valeur cf_clearance dans Paramètres (min. 30 caractères).",
+    "max12Accounts": "Vous pouvez sélectionner jusqu'à 12 comptes.",
+    "startRequirementsMissing": "Pour démarrer, saisissez un jeton, sélectionnez des comptes et au moins 1 pixel.",
+    "noSelectedImage": "Aucune image sélectionnée.",
+    "errorGeneric": "Erreur",
+    "painted": "Peint.",
+    "insufficientPixelPower": "Puissance de pixel insuffisante : {n} pixels n'ont pas pu être envoyés.",
+    "imageLoadFailed": "L'image n'a pas pu être chargée. Vérifiez les valeurs.",
+    "tokenAlreadyExists": "Un compte avec ce jeton existe déjà.",
+    "cfCannotBeClearedWithAccounts": "cf_clearance ne peut pas être vide si des comptes existent.",
+    "cfClearanceChange": "Veuillez changer cf_clearance.",
+    "purchaseSuccess": "Achat réussi",
+    "purchaseFail": "Échec de l'achat",
+    "tokenPastedFromExtension": "Jeton collé depuis l’extension"
+  },
+  "favorites": {
+    "openTitle": "Ouvrir les favoris",
+    "starTitle": "Enregistrer l’emplacement",
+    "title": "Favoris",
+    "saveTitle": "Enregistrer l’emplacement",
+    "nameLabel": "Nom",
+    "load": "Charger"
+  },
+  "autobuy": {
+    "All": "Achat auto de tout",
+    "AllAccountsTitle": "Achat auto de tous les comptes",
+    "AllAccountsSub": "Définir l'achat automatique pour tous les comptes en une seule fois"
+  }
+}
+
+

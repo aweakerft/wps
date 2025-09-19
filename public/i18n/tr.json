@@ -1,0 +1,179 @@
+{
+  "nav": {
+    "accounts": "Hesaplar",
+    "accountCount": "Hesap sayısı: {active} / {total}"
+  },
+  "pixel": {
+    "powerLabel": "Piksel gücü: {count} / {max}",
+    "brushSize": "Fırça boyutu (Shift+Boşluk):"
+  },
+  "ready": {
+    "prepare": "Hazırlan",
+    "selectAccount": "Hesap seç",
+    "autoSelectAccounts": "Otomatik Hesap Seç",
+    "autoSelect": "Otomatik seç",
+    "deleteAllSelected": "Tüm seçilenleri sil",
+    "start": "Başlat",
+    "tokenPlaceholder": "Token",
+    "accountLabelDefault": "Hesap",
+    "selectMode": {
+      "multi": "Önce başlangıçtan seç",
+      "frame": "Önce çerçeveden seç",
+      "color": "Renge göre seç"
+    },
+    "autoMode": {
+      "on": "Auto mode açık",
+      "off": "Auto mode kapalı"
+    },
+    "autoStart": {
+      "on": "Oto başlat açık",
+      "off": "Oto başlat kapalı"
+    }
+  },
+  "modal": {
+    "closeTitle": "Kapat"
+  },
+  "tabs": {
+    "accounts": "Hesaplar"
+  },
+  "accounts": {
+    "add": "Hesap ekle",
+    "checkAll": "Tüm Hesapları Kontrol Et",
+    "checkAllTitle": "Tüm hesapların piksel hakkını kontrol et"
+  },
+  "table": {
+    "accountName": "Hesap ismi",
+    "accountToken": "Hesap Tokeni",
+    "droplets": "Droplets",
+    "pixelRight": "Piksel Hakkı",
+    "status": "Durum",
+    "actions": "İşlem",
+    "statusActive": "Aktif",
+    "statusPassive": "Pasif"
+  },
+  "form": {
+    "accountNameLabel": "Hesap adı",
+    "accountNamePlaceholder": "Örn: Ana hesap",
+    "accountTokenLabel": "Hesap tokeni",
+    "accountTokenPlaceholder": "Örn: eyJhbGciOi...",
+    "worldXLabel": "World X",
+    "worldYLabel": "World Y",
+    "fetchButton": "Getir",
+    "uploadImage": "Resim yükle",
+    "mosaicButton": "Mozaik"
+  },
+  "preview": {
+    "scale": "Ölçek (%)",
+    "keepRatio": "Oranı koru",
+    "width": "Genişlik",
+    "height": "Yükseklik",
+    "fillBackground": "Arka planı doldur",
+    "color": "Renk",
+    "addToMap": "Haritaya ekle",
+    "maxSizeExceeded": "Maksimum boyut 1000x1000 piksel.",
+    "alphaThreshold": "Şeffaflık",
+    "colorMetric": "Renk algoritması",
+    "metricRgb": "RGB (fast)",
+    "metricLab": "Lab (CIE76)",
+    "metricOklab": "Oklab",
+    "metricCiede2000": "CIEDE2000 (more accurate, slower)",
+    "dithering": "Dithering",
+    "ditheringOn": "Dithering: ON",
+    "ditheringOff": "Dithering: OFF"
+  },
+  "settings": {
+    "cf_clearance": "cf_clearance",
+    "globalCfClearanceLabel": "cf_clearance:",
+    "title": "Boş Hesaplar için cf_clearance"
+  },
+  "mosaic": {
+    "title": "Mozaik",
+    "use2": "2 kord kullan",
+    "use4": "4 kord kullan",
+    "fetch": "Getir"
+  },
+  "buttons": {
+    "back": "Geri",
+    "save": "Kaydet",
+    "add": "Ekle",
+    "saveSettings": "Kaydet",
+    "edit": "Düzenle",
+    "checkPixels": "Kontrol",
+    "shop": "Mağaza",
+    "delete": "Sil"
+  },
+  "thumb": {
+    "imageAlt": "Resim {n}",
+    "lock": "Kilit"
+  },
+  "labels": {
+    "colorPalette": "Renk paleti"
+  },
+  "palette": {
+    "transparentTitle": "Transparan (resim rengi)",
+    "colorTitle": "Renk #{id}",
+    "premiumColorTitle": "Premium renk (kalan {remain}/{total})"
+  },
+  "paletteMode": {
+    "premium": "Premium renk kullan",
+    "free": "Ücretsiz renk kullan"
+  },
+  "controls": {
+    "movement": "Hareket"
+  },
+  "movement": {
+    "title": "Resmi hareket ettir",
+    "up": "Yukarı",
+    "down": "Aşağı",
+    "left": "Sola",
+    "right": "Sağa"
+  },
+  "messages": {
+    "selectAccountFirst": "Önce hesap seçin.",
+    "maxPixelsReached": "Maksimum piksel sayısına ulaştınız: {limit}/{limit}",
+    
+    "max12Accounts": "En fazla 12 hesap seçebilirsiniz.",
+    "startRequirementsMissing": "Başlatmak için token girin, hesap seçin ve en az 1 piksel seçin.",
+    "noSelectedImage": "Seçili resim yok.",
+    "errorGeneric": "Hata",
+    "painted": "Başarıyla boyandı.",
+    "insufficientPixelPower": "Yetersiz piksel gücü: {n} piksel gönderilemedi.",
+    "imageLoadFailed": "Resim yüklenemedi. Değerleri kontrol edin.",
+    "tokenAlreadyExists": "Bu token ile daha önce hesap kaydedildi.",
+    
+    "cfClearanceChange": "Lütfen cf_clearance değiştirin.",
+    "premiumColorLimitReached": "Seçilen premium renk için yeterli kapasite yok.",
+    "accountNotFound": "Hesap bulunamadı",
+    "purchaseSuccess": "Satın alım başarılı",
+    "purchaseFail": "Satın alım başarısız",
+    "tokenPastedFromExtension": "Token eklentiden yapıştırıldı"
+  },
+  "shop": {
+    "premiumTitle": "Premium Renkler",
+    "purchased": "Satın alınan renkler",
+    "exclusive": "Özel palet",
+    "buyPremium": "💧 2000 Droplets",
+    "itemsTitle": "Ürünler",
+    "itemsSub": "Daha fazla hak al",
+    "maxTitle": "+5 Maks. Hak",
+    "maxDesc": "Maksimum boyama hakkı kapasitesini artır",
+    "recTitle": "+30 Boyama Hakkı",
+    "recDesc": "Boyama haklarını yenile",
+    "autoBuy": "Oto satın al"
+  },
+  "favorites": {
+    "openTitle": "Favorileri aç",
+    "starTitle": "Konumu kaydet",
+    "title": "Favoriler",
+    "saveTitle": "Konumu kaydet",
+    "nameLabel": "Ad",
+    "load": "Yükle"
+  },
+  "autobuy": {
+    "All": "Tümünü oto satın al",
+    "AllAccountsTitle": "Tüm Hesapları Oto Satın Al",
+    "AllAccountsSub": "Tüm hesaplar için oto satın almayı bir kerede ayarla"
+  }
+}
+
+

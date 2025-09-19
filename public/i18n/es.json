@@ -1,0 +1,177 @@
+{
+  "nav": {
+    "accounts": "Cuentas",
+    "accountCount": "Cantidad de cuentas: {active} / {total}"
+  },
+  "pixel": {
+    "powerLabel": "Potencia de píxel: {count} / {max}",
+    "brushSize": "Tamaño del pincel (Shift+Espacio):"
+  },
+  "ready": {
+    "prepare": "Listo",
+    "selectAccount": "Seleccionar cuenta",
+    "autoSelectAccounts": "Seleccionar cuentas automáticamente",
+    "autoSelect": "Selección automática",
+    "deleteAllSelected": "Deseleccionar todo",
+    "start": "Iniciar",
+    "tokenPlaceholder": "Token",
+    "accountLabelDefault": "Cuenta",
+    "selectMode": {
+      "multi": "Seleccionar desde inicio",
+      "frame": "Seleccionar desde contorno",
+      "color": "Seleccionar por color"
+    },
+    "autoMode": {
+      "on": "Modo automático activado",
+      "off": "Modo automático desactivado"
+    },
+    "autoStart": {
+      "on": "Inicio automático activado",
+      "off": "Inicio automático desactivado"
+    }
+  },
+  "modal": {
+    "closeTitle": "Cerrar"
+  },
+  "tabs": {
+    "accounts": "Cuentas",
+    "settings": "Ajustes"
+  },
+  "accounts": {
+    "add": "Agregar cuenta",
+    "checkAll": "Comprobar todas las cuentas",
+    "checkAllTitle": "Comprobar capacidad de píxeles de todas las cuentas"
+  },
+  "table": {
+    "accountName": "Nombre de la cuenta",
+    "accountToken": "Token de la cuenta",
+    "droplets": "Droplets",
+    "pixelRight": "Límite de píxeles",
+    "status": "Estado",
+    "actions": "Acción",
+    "statusActive": "Activo",
+    "statusPassive": "Inactivo"
+  },
+  "form": {
+    "accountNameLabel": "Nombre de la cuenta",
+    "accountNamePlaceholder": "Ej.: Cuenta principal",
+    "accountTokenLabel": "Token de la cuenta",
+    "accountTokenPlaceholder": "Ej.: eyJhbGciOi...",
+    "worldXLabel": "World X",
+    "worldYLabel": "World Y",
+    "fetchButton": "Obtener",
+    "uploadImage": "Subir imagen",
+    "mosaicButton": "Mosaico"
+  },
+  "preview": {
+    "scale": "Escala (%)",
+    "keepRatio": "Mantener proporción",
+    "width": "Ancho",
+    "height": "Alto",
+    "fillBackground": "Rellenar fondo",
+    "color": "Color",
+    "addToMap": "Añadir al mapa",
+    "maxSizeExceeded": "El tamaño máximo es 1000x1000 píxeles.",
+    "alphaThreshold": "Transparencia",
+    "colorMetric": "Algoritmo color",
+    "metricRgb": "RGB (rápido, \"seguro\")",
+    "metricLab": "Lab (CIE76)",
+    "metricOklab": "Oklab",
+    "metricCiede2000": "CIEDE2000 (más preciso, más lento)",
+    "dithering": "Dithering",
+    "ditheringOn": "Dithering: ON",
+    "ditheringOff": "Dithering: OFF"
+  },
+  "settings": {
+    "cf_clearance": "cf_clearance",
+    "globalCfClearanceLabel": "cf_clearance:",
+    "title": "cf_clearance para cuentas vacías"
+  },
+  "mosaic": {
+    "title": "Mosaico",
+    "use2": "Usar 2 coord",
+    "use4": "Usar 4 coord",
+    "fetch": "Obtener"
+  },
+  "buttons": {
+    "back": "Atrás",
+    "save": "Guardar",
+    "add": "Añadir",
+    "saveSettings": "Guardar",
+    "edit": "Editar",
+    "checkPixels": "Comprobar",
+    "shop": "Tienda",
+    "delete": "Eliminar"
+  },
+  "thumb": {
+    "imageAlt": "Imagen {n}",
+    "lock": "Bloquear"
+  },
+  "labels": {
+    "colorPalette": "Paleta de colores"
+  },
+  "palette": {
+    "transparentTitle": "Transparente (color de la imagen)",
+    "colorTitle": "Color #{id}"
+  },
+  "paletteMode": {
+    "premium": "Usar color premium",
+    "free": "Usar color gratis"
+  },
+  "shop": {
+    "premiumTitle": "Colores Premium",
+    "purchased": "Colores comprados",
+    "exclusive": "Paleta exclusiva",
+    "buyPremium": "💧 2000 Droplets",
+    "itemsTitle": "Artículos",
+    "itemsSub": "Obtén más cargas",
+    "maxTitle": "+5 Cargas Máx.",
+    "maxDesc": "Aumenta la capacidad máxima de cargas de pintura",
+    "recTitle": "+30 Cargas de Pintura",
+    "recDesc": "Recarga cargas de pintura",
+    "autoBuy": "Compra automática"
+  },
+  "controls": {
+    "movement": "Movimiento"
+  },
+  "movement": {
+    "title": "Mover imagen",
+    "up": "Arriba",
+    "down": "Abajo",
+    "left": "Izquierda",
+    "right": "Derecha"
+  },
+  "messages": {
+    "selectAccountFirst": "Selecciona una cuenta primero.",
+    "maxPixelsReached": "Has alcanzado el máximo de píxeles: {limit}/{limit}",
+    "addCfClearancePrompt": "Primero agrega el valor cf_clearance en Configuración (mín. 30 caracteres).",
+    "max12Accounts": "Puedes seleccionar hasta 12 cuentas.",
+    "startRequirementsMissing": "Para empezar ingresa el token, selecciona cuentas y al menos 1 píxel.",
+    "noSelectedImage": "No hay imagen seleccionada.",
+    "errorGeneric": "Error",
+    "painted": "Pintado.",
+    "insufficientPixelPower": "Poder de píxeles insuficiente: {n} píxeles no se pudieron enviar.",
+    "imageLoadFailed": "No se pudo cargar la imagen. Verifica los valores.",
+    "tokenAlreadyExists": "Ya existe una cuenta con este token.",
+    "cfCannotBeClearedWithAccounts": "cf_clearance no puede estar vacío mientras existan cuentas.",
+    "cfClearanceChange": "Por favor cambia cf_clearance.",
+    "purchaseSuccess": "Compra exitosa",
+    "purchaseFail": "Compra fallida",
+    "tokenPastedFromExtension": "Token pegado desde la extensión"
+  },
+  "favorites": {
+    "openTitle": "Abrir favoritos",
+    "starTitle": "Guardar ubicación",
+    "title": "Favoritos",
+    "saveTitle": "Guardar ubicación",
+    "nameLabel": "Nombre",
+    "load": "Cargar"
+  },
+  "autobuy": {
+    "All": "Compra automática de todo",
+    "AllAccountsTitle": "Compra automática de todas las cuentas",
+    "AllAccountsSub": "Configurar compra automática para todas las cuentas a la vez"
+  }
+}
+
+
